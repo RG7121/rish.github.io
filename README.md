@@ -1,2 +1,3 @@
 # rish.github.io
-Rishtimes
+Rish times
+A classic newspaper webpage with some css spices.
