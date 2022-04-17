@@ -1,0 +1,230 @@
+*{
+    box-sizing: border-box;
+}
+
+.name{
+    font-family: 'Oxygen Mono', monospace;
+   font-weight: 30;
+    font-size: 51px;
+    color: rgb(15, 224, 224);
+    display: inline-block;
+    margin: 0 0.5rem;
+  
+    animation: bounce; 
+    animation-duration: 4s;
+    animation-iteration-count: infinite; 
+} 
+.upper h2{
+    font-family: 'Oxygen Mono', monospace;
+
+    color:#313131;
+    font-size:30px;
+    animation: zoomInDown;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+
+
+    
+}
+
+body{
+    background-color: #0a011d;
+    padding: 0 ;
+    margin: 0 ;
+
+}
+p,li{
+    color: aliceblue;
+    font-family: 'Lobster', cursive;
+}
+h2{
+  margin-bottom: 0;
+}
+a{
+    color: magenta;
+    text-decoration: none;
+}
+a:hover{
+    color: darkmagenta;
+    text-decoration: underline ;
+}
+.upper{
+          padding: 4rem 1rem 10rem 1rem;
+          max-width: 1200px;
+          margin: 0 auto;
+        
+}
+.hi{
+    font-weight: bolder;
+}
+.master{
+  font-size: 50px;
+  font-weight: 15000;
+  color: rgb(211, 6, 143);
+}
+.upper p{
+    line-height: 1.5;;
+}
+.contact{
+   text-align: center;
+    width: 400px;
+
+    margin: 0 auto;
+      padding: 3rem 0;
+}
+.contactme{
+    font-size: x-large;
+}
+.email{
+    padding-top: 2rem;
+    background-color: magenta;
+    padding: 0.5rem;
+    border-radius: 10px;
+    height: 10%;
+    width: 30%;
+   margin-left: 34%;
+
+}
+
+
+.navbar ul{
+    display: flex;
+   list-style-type: none;
+   gap: 2rem;
+   flex-flow: row wrap;
+   justify-content: center;
+   align-items: center;
+   margin: 0;
+   padding: 0;
+   font-size: x-large;
+
+}
+.navbar{
+    padding: 1rem;
+    /* font-size: 80%; */
+}
+.navbar a{
+    color: aliceblue;
+    display: block;
+    text-decoration: none;
+}
+.navbar a:hover , nav li [class*="fa-"]:hover{
+ color: magenta;
+
+}
+nav li:first-child{
+    flex-basis: 100%;
+    text-align: center;
+}
+.rishabh{
+    animation: heartBeat;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+nav [class*= "fa-"]{
+    color: aqua;
+    font-size: 120%;
+}
+.rg{
+    color: aliceblue;
+
+}
+.rg:hover{
+color: magenta;
+}
+nav [class*="fa-address-book"]{
+    color: red;
+    font-size: 120%;
+}
+nav [class*="fa-terminal"]{
+    color: greenyellow;
+    font-size: 100%;
+}
+nav [class*="fa-github-alt"]{
+    color: rgb(247, 165, 12);
+    font-size: 150%;
+}
+nav [class*="fa-microchip"]{
+    color: rgb(158, 146, 240);
+    
+}
+.res{
+    font-size: 80%;
+    margin-top: -10px;
+    background-color: magenta;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+.res:hover{
+    background-color:  #ee00ba;
+    color: aliceblue !important;
+}
+
+footer ul{
+    display: flex;
+    justify-content: center;
+  
+    list-style-type: none;
+    flex-flow: row wrap;
+   padding: 0;
+    margin: 2rem 0;
+    gap: 3rem;
+font-size: 80px;
+    
+}
+footer li{
+    font-size: 120%;
+}
+footer{
+    background-color: #14091d;
+    text-align: center;
+    padding: 0.5rem;
+}
+.dev{
+    color: aliceblue;
+     text-align: center;
+     font-family: 'Send Flowers', cursive;
+  
+     
+}
+@media (min-width: 850px) {
+ nav{
+     max-width: 1200px;
+     margin: 0 auto;
+ }    
+ nav li:first-child{
+     flex-basis: auto;
+     text-align: left;
+     margin-right: auto;
+     
+ }
+}
+.plum_contact{
+    background-color: rgb(51, 0, 51);
+}
+.gradient{
+    background: rgb(149,141,146);
+    background: linear-gradient(58deg, rgba(149,141,146,1) 0%, rgba(84,0,110,1) 100%);
+    height: 2px;;
+}
+img{
+ 
+    height: 30rem;
+    width: 20rem;
+    border-radius: 10%;
+
+}
+.picture{
+    display: flex;
+     flex-direction: row;
+
+   align-items: center;
+  
+    
+}
+@media (min-width : 850px){
+    .picture{
+        margin-right: 200px;
+    }
+  
+}
